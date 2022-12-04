@@ -1,11 +1,12 @@
 import React from 'react';
 import './home.css';
+import Header from './header';
 
 const Home = ()=>{
 
     return(
         <div>
-            <span>hi!</span>
+            <h1><Header/></h1>
         </div>
     )
 }
