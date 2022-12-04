@@ -1,9 +1,7 @@
-#titler{
-    position: center;
+#nav{
+    text-align: center;
 }
 
-#about{
-    position: center;
-    top:100px;
+.navbar-nav{
+    margin: auto; 
 }
-
