@@ -2,25 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');;
 
 nav{ 
-    text-align: center;  
+    text-align: center; 
+    height: 250px; 
  
 }
 
 .navbar-brand{
-    color:#4c5050;
+    color:#1f3535;
     font-family: 'Lora', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
+    
 
 }
 .navbar-nav{
     margin: auto; 
-    color: #678181;
+    color: #081010;
     font-family: 'Lora', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
+    font-weight: bold;
 }
