@@ -5,6 +5,8 @@ import Home from './home';
 import Services from './services';
 import Contact from './contact';
 import About from './about';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (

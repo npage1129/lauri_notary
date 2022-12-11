@@ -9,7 +9,7 @@ import Stack from 'react-bootstrap/Stack';
 const Header = () => {
 
     return(
-        <Navbar id="nav" bg="light" expand="lg"> 
+        <Navbar id="nav" expand="lg"> 
         <Container>
         <Stack gap={2}>
                 <Navbar.Brand href="/">LAURI'S NOTARY SERVICES</Navbar.Brand>
