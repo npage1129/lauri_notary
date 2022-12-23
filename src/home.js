@@ -2,29 +2,26 @@ import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import './home.css';
 import Header from './header';
-import img2 from './img2.jpeg';
 import notarystamp from './notarystamp.png';
-import { Container } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import spill from './inkSpill.jpeg';
+import fadepic from './fadepic.jpeg'
 
 const Home = ()=>{
     const url = 'https://www.facebook.com/Laurisnotaryservices/';
     return(
         <div>
-        <div>
+        <div id='column'>
             <h1><Header/></h1>
-        </div>
-        <div className="parent">
-            <img id="signing" src={img2}></img>
-            <img id="stamp" src={notarystamp}></img>
+            <h1 id='snippet'>Lauri Page is a South Florida-based<br></br> Mobile Notary, specializing in all loan types. </h1>
+            <h2 id="subHeader">She is currently available for hire</h2>
+            <button id="touch">Get in Touch</button>
             </div>
-        <div className='facebook'>
-        <Container className='follow1'>
-            <h1 id="follow">FOLLOW ME ON SOCIAL MEDIA</h1>
-            <button id='fabutton' type="button" onClick={() => window.open(url, '_blank')}><FontAwesomeIcon icon={faFacebook} /></button> 
-        </Container>
-        </div>
+            <div id="column">
+            <img id="spilll" src={spill}></img>
+            <img id="lauri" src={fadepic}></img>
+            <img id="stamp" src={notarystamp}></img>
+
+            </div>
         </div>
     )
 }

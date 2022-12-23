@@ -3,24 +3,23 @@ import './header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Stack from 'react-bootstrap/Stack';
+import notarystamp from './notarystamp.png';
+
 
 
 const Header = () => {
 
-    return(
+    return(            
         <Navbar id="nav" expand="lg"> 
-        <Container>
-        <Stack gap={2}>
-                <Navbar.Brand href="/">LAURI'S NOTARY SERVICES</Navbar.Brand>
+            <Navbar.Brand>LAURI'S NOTARY SERVICES</Navbar.Brand>
             <Nav>
                 <Nav.Link id="about" href="about">ABOUT</Nav.Link>
                 <Nav.Link id="services" href="services">SERVICES</Nav.Link>
                 <Nav.Link id="contact" href="contact">CONTACT</Nav.Link>
             </Nav>
-            </Stack>
-        </Container>  
+        
         </Navbar> 
+     
     );
 }
 
