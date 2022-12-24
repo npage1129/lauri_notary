@@ -33,16 +33,13 @@ const Home = ()=>{
 Hi! I'm Lauri and I'm a mobile notary public located in Southwest Florida. I've worked in business development for over 30 years and I've been in the title business for 6 of these, 5 of which I have been a licensed title agent.
 I've completed well-over 1000 closings, and during the process I fell in love with helping people make their dreams become a reality.
 I have a passion for this crazy real estate business and I love working with people and assisting them with their life-changing adventures.My favorite part has always been sitting at the table during the final closings,
+so I decided to open up my own mobile notary company, which gives me the opportunity to work with everyone. I have focused mainly on all types of loan closings, including refinances and reverse mortgages. I also love working with sellers during the final steps of their process as well. 
+            I pride myself on being very organized, friendly, and dedicated. 
+            I understand that every client is unique, and I ensure that each job will be tailored to their individual needs.
             </p>
             </div>
             </div>
-            <div class="col">
-            <p id="cont">so I decided to open up my own mobile notary company, which gives me the opportunity to work with everyone.
-            I have focused mainly on all types of loan closings, including refinances and reverse mortgages. 
-            I also love working with sellers during the final steps of their process as well. 
-            I pride myself on being very organized, friendly, and dedicated. 
-            I understand that every client is unique, and I ensure that each job will be tailored to their individual needs.</p>
-            </div>
+        
             </div>
             </div>
             </div>
