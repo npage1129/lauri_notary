@@ -10,25 +10,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = ()=>{
     const url = 'https://www.facebook.com/Laurisnotaryservices/';
+    const navigate=useNavigate();
+    const navigateToContact =()=>{
+        navigate('/contact');
+    }
     return(
         <div>
         <div id='column'>
             <h1><Header/></h1>
             <h1 id='snippet'>Lauri Page is a South West Florida-based<br></br> Mobile Notary, specializing in all loan types. </h1>
             <h2 id="subHeader">Available for all of your notary needs</h2>
-            <button id="touch">Get in Touch</button>
+            <button onClick={navigateToContact}id="touch">Get in Touch</button>
             </div>
             <div id="column" style={{ height: "1500px" }}>
             <img id="pen" src={pen}></img>
             <div id ="me-section">
-            <div class="row align-items-start">
-            <div class="col">
            <img id="lauri" src={fadepic}></img>
-           </div>
-           <div class="col">
             <h1 id="meHeader"> Putting My Experience to Work</h1>
-            
-            <div class="col">
             <p id="about-me"> 
 Hi! I'm Lauri and I'm a mobile notary public located in Southwest Florida. I've worked in business development for over 30 years and I've been in the title business for 6 of these, 5 of which I have been a licensed title agent.
 I've completed well-over 1000 closings, and during the process I fell in love with helping people make their dreams become a reality.
@@ -41,9 +39,7 @@ so I decided to open up my own mobile notary company, which gives me the opportu
             </div>
         
             </div>
-            </div>
-            </div>
-            </div>
+          
     )
 }
 

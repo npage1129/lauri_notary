@@ -49,11 +49,9 @@ letter-spacing: 0.1em;
     margin-bottom: 70px;
 }
 #lauri{
-    float:left;
-    margin: auto;
     margin-left: 100px;
     border: 1px rgb(214, 217, 214) solid;
-    margin-right: 100px;
+    height:700px;
 }
 
 #spilll{
@@ -77,34 +75,33 @@ letter-spacing: 0.1em;
 #me-section{
 height:1000px;
 column-count: 2;
-column-gap: 40px;
-column-rule-style: solid;
-column-rule-width: 1px;
+column-rule:1px solid #1f3535;
+padding: 30px;
+
 }
+
 #meHeader{
-    float:block;
-    margin: auto;
     color:#1f3535;
     font-family: 'Lora', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 50px;
     letter-spacing: 0.1em;
-    column-span: all;
     font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #dd7973;
+    margin-right:100px;
+    
 }
 
 #about-me{
-    float: block;
     color:#1f3535;
     font-family: 'Lora', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif; 
-    word-spacing: 0.1em;
     letter-spacing: 0.1em;
     font-size: 25px;
-    column-span: all;
+    margin:0;
+    margin-right: 100px;
 }
