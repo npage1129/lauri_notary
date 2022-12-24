@@ -5,12 +5,7 @@
 
 #column{
 background-color: #f2f0f0;
-
-
 }
-
-
-
 #snippet{
 color:#1f3535;
 font-family: 'Lora', serif;
@@ -51,19 +46,60 @@ letter-spacing: 0.1em;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 120px;
+    margin-bottom: 70px;
 }
 #lauri{
-
+    float:left;
     margin: auto;
-    display:block;
+    margin-left: 100px;
     border: 1px rgb(214, 217, 214) solid;
+    margin-right: 100px;
 }
 
 #spilll{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:68%;
-    height:500px;
+    width:65%;
+    height: 1050px;
+    margin-bottom: 165px;
+}
+
+#pen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-bottom: 150px;
+    filter: drop-shadow(5px 20px 5px rgba(139, 133, 133, 0.406));
+}
+
+#me-section{
+height:1000px;
+column-count: 2;
+column-gap: 40px;
+column-rule-style: solid;
+column-rule-width: 1px;
+}
+#meHeader{
+    float:block;
+    margin: auto;
+    color:#1f3535;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 50px;
+    letter-spacing: 0.1em;
+    column-span: all;
+}
+
+#about-me{
+    float: block;
+    color:#1f3535;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    word-spacing: 0.1em;
+
+    column-span: all;
 }
