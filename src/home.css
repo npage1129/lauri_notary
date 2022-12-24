@@ -105,3 +105,45 @@ padding: 30px;
     margin:0;
     margin-right: 100px;
 }
+
+#break{
+    height:1000px;
+    background-color: #f2f0f0;
+}
+
+#notarystamp{
+    margin-left: 500px;
+    width: 50%;
+    margin-bottom:150px;
+}
+#break1{
+    height:900px;
+    background-color: #f2f0f0;
+   
+}
+#spill{
+    margin-left: 100px;
+    height:600px;
+    margin-bottom: 100px;
+    float: left;
+    width: 50%;
+    border: 3px solid #dd7973;
+    padding:10px;
+}
+
+#icon{
+    float: right;
+    margin-right:300px;
+    margin-top:10px;
+  
+}
+#follow{
+color:#1f3535;
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+float:right;
+margin-right:200px;
+margin-top:150px;
+
+}

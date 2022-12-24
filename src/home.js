@@ -7,6 +7,9 @@ import spill from './inkSpill.jpeg';
 import fadepic from './fadepic.jpeg';
 import pen from './pen.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import icon from './icon.png'
 
 const Home = ()=>{
     const url = 'https://www.facebook.com/Laurisnotaryservices/';
@@ -35,6 +38,16 @@ so I decided to open up my own mobile notary company, which gives me the opportu
             I pride myself on being very organized, friendly, and dedicated. 
             I understand that every client is unique, and I ensure that each job will be tailored to their individual needs.
             </p>
+            </div>
+            <div id="break">
+            <img id ="notarystamp" src ={notarystamp}></img>
+            <div id="break1">    
+            <img id="spill" src ={spill}></img>
+            <div id="facebook1">
+            <h1 id="follow">Follow Lauri on Facebook</h1>
+            <Nav.Link href='https://www.facebook.com/Laurisnotaryservices/'><img id="icon" src ={icon}></img></Nav.Link>
+            </div>
+            </div>
             </div>
             </div>
         

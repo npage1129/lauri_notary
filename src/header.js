@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar id="nav" expand="lg"> 
             <Navbar.Brand>LAURI'S NOTARY SERVICES</Navbar.Brand>
             <Nav>
-                {/* <Nav.Link href='https://www.facebook.com/Laurisnotaryservices/'><img id="icon" src ={icon}></img></Nav.Link> */}
+              
                 <Nav.Link id="about" href="about">ABOUT</Nav.Link>
                 <Nav.Link id="services" href="services">SERVICES</Nav.Link>
                 <Nav.Link id="contact" href="contact">CONTACT</Nav.Link>
