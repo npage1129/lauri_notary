@@ -10,9 +10,9 @@ import icon from './icon.png'
 const Header = () => {
 
     return(            
-        <Navbar id="nav" expand="lg"> 
-            <Navbar.Brand>LAURI'S NOTARY SERVICES</Navbar.Brand>
-            <Nav>
+        <Navbar id="navigator" expand="lg"> 
+            <Navbar.Brand id="brand">LAURI'S NOTARY SERVICES</Navbar.Brand>
+            <Nav id="links">
               
                 <Nav.Link id="about" href="about">ABOUT</Nav.Link>
                 <Nav.Link id="services" href="services">SERVICES</Nav.Link>

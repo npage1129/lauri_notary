@@ -54,14 +54,7 @@ letter-spacing: 0.1em;
     height:700px;
 }
 
-#spilll{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:65%;
-    height: 1050px;
-    margin-bottom: 165px;
-}
+
 
 #pen{
     display: block;
@@ -123,8 +116,6 @@ padding: 30px;
 }
 #spill{
     margin-left: 100px;
-    height:600px;
-    margin-bottom: 100px;
     float: left;
     width: 50%;
     border: 3px solid #dd7973;

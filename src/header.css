@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');;
 
-nav{
+#navigator{
     margin-bottom:150px;
 }
 
-.navbar-brand{
+#brand{
     color:#1f3535;
     font-family: 'Lora', serif;
     font-family: 'Raleway', sans-serif;
@@ -14,7 +14,7 @@ nav{
     margin-left: 20px;  
 
 }
-.navbar-nav{
+#links{
     color: #081010;
     font-family: 'Lora', serif;
     font-family: 'Oswald', sans-serif;

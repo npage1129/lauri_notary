@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import icon from './icon.png'
+import Footer from './footer';
 
 const Home = ()=>{
     const url = 'https://www.facebook.com/Laurisnotaryservices/';
@@ -40,7 +41,6 @@ so I decided to open up my own mobile notary company, which gives me the opportu
             </p>
             </div>
             <div id="break">
-            <img id ="notarystamp" src ={notarystamp}></img>
             <div id="break1">    
             <img id="spill" src ={spill}></img>
             <div id="facebook1">
@@ -48,7 +48,9 @@ so I decided to open up my own mobile notary company, which gives me the opportu
             <Nav.Link href='https://www.facebook.com/Laurisnotaryservices/'><img id="icon" src ={icon}></img></Nav.Link>
             </div>
             </div>
+            
             </div>
+            <div ><Footer/></div>
             </div>
         
             </div>
