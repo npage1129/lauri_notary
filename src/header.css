@@ -4,7 +4,6 @@
 #navigator{
     margin-bottom:150px;
 }
-
 #brand{
     color:#1f3535;
     font-family: 'Lora', serif;
@@ -22,5 +21,16 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
     font-weight: bold;
-    margin-left: 1230px;
+    margin-left: 1080px;
+
 }
+
+#contact{
+margin-right: 15px;
+}
+#facebook{
+border: 1px solid #ccc;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+

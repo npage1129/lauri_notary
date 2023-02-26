@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+#heading{   
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  
+
+}
+
+#lj{
+    margin-top: 60px;
+    height: 25%;
+    width:30%;
+
+}
+#verbiage{
+    margin-top:100px;
+    text-align: center;
+}
+#professional-heading{
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    color: #dd7973;
+    margin-bottom: 10px;   
+}
+#season-body{
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right:  500px;
+}
+
+#verbiage2{
+    margin-top: 50px;
+    text-align: center;
+}
+#experienced-heading{
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    color: #dd7973;
+}
+
+#experience-part1{
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right:  500px;
+}
