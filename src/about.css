@@ -62,3 +62,9 @@
     margin-left: 500px;
     margin-right:  500px;
 }
+#banner{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: #dd7973;
+}

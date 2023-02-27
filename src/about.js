@@ -30,7 +30,7 @@ const About = () => {
         <br></br>
         I look forward to working with you! Cheers to a smooth closing! 
         </p>
-        <div>
+        <div id="banner" style ={{color: 'purple'}}>
             
         </div>
         </div>
