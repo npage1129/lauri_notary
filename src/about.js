@@ -30,8 +30,21 @@ const About = () => {
         <br></br>
         I look forward to working with you! Cheers to a smooth closing! 
         </p>
-        <div id="banner" style ={{color: 'purple'}}>
-            
+        <div className="banner" style ={{color: 'black'}}>
+     
+         <div className = "bannerHead">Stamping New Changes</div>
+      
+        <div className ="bannerBody"> I have a passion for this crazy real estate business and I love working with people and assisting them with their life-changing adventures. 
+
+​<br></br><br></br>
+
+My favorite part has always been sitting at the table during the final closings, so I decided to open up my own mobile notary company, which gives me the opportunity to work with everyone and help them with the last parts of their closing. 
+
+ <br></br><br></br>
+I have focused mainly on all types of loan closings, including refinances and reverse mortgages.  I also love working with sellers during the final steps of their process as well.​
+         </div>   
+      
+
         </div>
         </div>
         </div>

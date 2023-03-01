@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
 
 #heading{   
+    margin-top:  -30px;
     font-family: 'Lora', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-  
 
 }
 
@@ -62,9 +62,25 @@
     margin-left: 500px;
     margin-right:  500px;
 }
-#banner{
-    margin-top: 50px;
-    height: 300px;
-    width: 100%;
+.banner{
+    margin-top: 100px;
+    position: relative;
+    text-align: left;
     background-color: #dd7973;
+    height:  600px;
+}
+.bannerHead{
+position: absolute;
+top:20%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 25px;
+}
+.bannerBody{
+    margin-top: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;   
 }
