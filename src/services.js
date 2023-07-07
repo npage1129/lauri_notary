@@ -6,7 +6,7 @@ import pen from './services.png';
 const Services = () => {
 
     return(
-        <div>
+        <div className="contain">
             <div id="serviceColumn"> 
             <h1><Header/></h1>
         <div>
@@ -14,11 +14,11 @@ const Services = () => {
 
         </div>
 
-        <div style={{textAlign: 'center', position: 'relative', top: 0, left: 0}}>
+        <div>
             <img id="penPic" src={pen}></img>
-                <div style={{position: 'absolute'}}class="box">Box 1</div>
-                <div style={{position: 'absolute'}}class="box">Box 2</div>
-                <div style={{position: 'absolute'}}class="box">Box 3</div>
+                <div style={{marginLeft: "100px"}}className="box">Box 1</div>
+                <div style={{marginLeft: "100px"}}className="box">Box 2</div>
+                <div style={{marginLeft: "100px"}}className="box">Box 3</div>
         </div>
         </div>
         </div>
