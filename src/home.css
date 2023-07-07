@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Merriweather:ital,wght@1,900&family=Oswald&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-
+*{
+    background-color:#f2f0f0;
+}
 #column{
 background-color: #f2f0f0;
+display : inline-block;
+position:  relative;
 }
+
 #snippet{
 color:#1f3535;
 font-family: 'Lora', serif;
@@ -58,13 +63,16 @@ letter-spacing: 0.1em;
 
 #pen{
     display: block;
+    height: auto;
+    margin-top: 100px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width:50%;
-    margin-bottom: 150px;
-    filter: drop-shadow(5px 20px 5px rgba(139, 133, 133, 0.406));
+    margin-bottom:300px;
+    background-color:  #f2f0f0;
+ 
 }
-
 #me-section{
 height:1000px;
 column-count: 2;

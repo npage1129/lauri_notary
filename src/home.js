@@ -36,7 +36,7 @@ so I decided to open up my own mobile notary company, which gives me the opportu
             </p>
             </div>
             <div style={{backgroundColor: 'white'}}>
-            <Header />
+            <h1><Header/></h1>
             </div>
             </div>
           
