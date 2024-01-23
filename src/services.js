@@ -1,7 +1,7 @@
 import React from 'react';
 import './services.css';
 import Header from './header';
-import pen from './services.png';
+import Notary from './Fees List.jpg';
 
 const Services = () => {
 
@@ -11,15 +11,16 @@ const Services = () => {
             <h1><Header/></h1>
         <div>
             <h2 id = "servicesTitle">Services</h2>
+         
 
         </div>
-
+        
         <div>
-            <img id="penPic" src={pen}></img>
-                <div style={{marginLeft: "100px"}}className="box">Box 1</div>
-                <div style={{marginLeft: "100px"}}className="box">Box 2</div>
-                <div style={{marginLeft: "100px"}}className="box">Box 3</div>
+            <img id="fees" src={Notary}></img>
         </div>
+        <div style={{backgroundColor: 'white'}}>
+            <h1><Header/></h1>
+            </div>
         </div>
         </div>
     )
