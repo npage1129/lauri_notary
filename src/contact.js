@@ -40,22 +40,22 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div  id="wholePage">
             <h1><Header/></h1> 
             <div id="contactInfo">
-                CONTACT
+                CONTACT<br></br>
                 Reach Me Anytime
 
-                For any questions or inquiries, you can find me at:
-                Bonita Springs, FL, 34135
-                630-212-9580
+                For any questions or inquiries, you can find me at:<br></br>
+                Bonita Springs, FL, 34135<br></br>
+                630-212-9580<br></br>
                 laurisnotaryservices@gmail.com
-
-                <h2>Contact Us</h2>
+    
+                <h2  id="contactUs">Contact Us</h2>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label>Name:</label>
-                        <input 
+                        <label id="name">Name:</label>
+                        <input id="inputName"
                             type="text" 
                             name="name" 
                             value={formData.name} 
@@ -64,8 +64,8 @@ const Contact = () => {
                         />
                     </div>
                     <div>
-                        <label>Email:</label>
-                        <input 
+                        <label id="email">Email:</label>
+                        <input id="inputEmail"
                             type="email" 
                             name="email" 
                             value={formData.email} 
@@ -74,8 +74,8 @@ const Contact = () => {
                         />
                     </div>
                     <div>
-                        <label>Phone Number:</label>
-                        <input 
+                        <label  id="phone">Phone Number:</label>
+                        <input id="inputPhone"
                             type="tel" 
                             name="phone" 
                             value={formData.phone} 
@@ -84,15 +84,15 @@ const Contact = () => {
                         />
                     </div>
                     <div>
-                        <label>Message:</label>
-                        <textarea 
+                        <label id="message">Message:</label>
+                        <textarea id="inputMessage"
                             name="message" 
                             value={formData.message} 
                             onChange={handleChange} 
                             required 
                         />
                     </div>
-                    <button type="submit">Submit</button>
+                    <button id="button" type="submit">Submit</button>
                 </form>
             </div>
         </div>
